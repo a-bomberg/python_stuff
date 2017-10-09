@@ -1,0 +1,48 @@
+{
+  "08-11-2017": {
+    "GER": [
+      {
+        "serverName": "Server1",
+        "status": "Running",
+        "users": [
+          {
+            "name": "User001",
+            "computerName": "Computer001",
+            "idNumber": "555001"
+          },
+          {
+            "name": "User002",
+            "computerName": "Computer002",
+            "idNumber": "555002"
+          },
+          {
+            "name": "User003",
+            "computerName": "Computer003",
+            "idNumber": "555003"
+          }
+        ]
+      },
+      {
+        "serverName": "Server2",
+        "status": "Idle",
+        "users": [
+          {
+            "name": "User101",
+            "computerName": "Computer101",
+            "idNumber": "555101"
+          },
+          {
+            "name": "User102",
+            "computerName": "Computer102",
+            "idNumber": "555102"
+          },
+          {
+            "name": "User103",
+            "computerName": "Comuter103",
+            "idNumber": "555103"
+          }
+        ]
+      }
+    ]
+  }
+}
