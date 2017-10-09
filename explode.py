@@ -34,7 +34,7 @@ for date_of in raw_data:
                 log_line = json.dumps({'Date': date_of, 'Location': location, 'Server': serverName, 'Status': status, 'Name': name, 'Computer': computerName, 'Id': idNumber})
 
 # Creates the output file and appends each line to it
-                file_name = "{}-{}.json"
-                file_name.format(location, date_of)
+                file_name_format = "{}-{}.json"
+                file_name = file_name_format.format(location, date_of)
                 with open(file_name, 'a+') as myfile:
                     myfile.write('%s \n' % log_line)
